@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=PT+Sans&display=swap");
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+section {
+  background: #faebc8;
+  padding: 100px 150px;
+}
+
+#boxShadow {
+  background: #ffffff;
+  border-radius: 25px;
+  -webkit-box-shadow: 5px 5px 15px 5px #872e04;
+  box-shadow: 5px 5px 15px 5px #872e04;
+}
+
+section article {
+  width: 30%;
+  display: inline-block;
+}
+
+section article img {
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+}
+
+section article h2 {
+  text-align: center;
+  font-size: 24px;
+}
+article p {
+  text-align: left;
+  width: 200px;
+}
+
+section article p:last-child {
+  font-style: italic;
+  color: #965a50;
+  text-shadow: 22px 15px 1px rgb(150 150 150);
+}
+
+
+
+/* 
+main {
+  position: relative;
+  background: white;
+  height: 200px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
+}
+
+main div {
+  background: black;
+  color: white;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
+} */
