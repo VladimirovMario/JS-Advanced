@@ -1,0 +1,125 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 1080px;
+  background-color: rgb(214, 116, 114);
+}
+nav {
+  background: #ffffff;
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  padding: 10px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #d67472;
+  padding-right: 29px;
+}
+/*main*/
+main section article:nth-child(1) {
+  text-align: center;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url(header-flower.png) no-repeat;
+  background-size: cover;
+}
+
+main section article:nth-child(1) h1 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding-top: 320px;
+  padding-bottom: 15px;
+}
+main section article hr {
+  height: 2px;
+  width: 60px;
+  border-width: 0;
+  margin: 0 auto;
+}
+main section article:nth-child(1) hr {
+  background-color: #d67472;
+}
+
+main section article:nth-child(1) p {
+  margin: 0 auto;
+  width: 40%;
+  padding-top: 15px;
+  padding-bottom: 245px;
+}
+
+main section article:nth-child(2) hr {
+  background-color: white;
+}
+
+main section article:nth-child(2) {
+  text-align: center;
+  color: white;
+}
+
+main section article:nth-child(2) h2 {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+body > main > section:nth-child(1) > article:nth-child(2) > p {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+button {
+  padding: 16px 23px;
+  color: #d67472;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 7px;
+  border: none;
+  margin: 40px;
+}
+
+body main section:nth-child(2) {
+  background: white;
+}
+body main section:nth-child(2) h2 {
+  margin: 0;
+  padding: 35px;
+  text-align: center;
+  color: black;
+}
+
+body > main > section:nth-child(2) > hr {
+  height: 2px;
+  width: 60px;
+  border-width: 0;
+  margin: 0 auto;
+  background-color: #d67472;
+}
+
+body > main > section:nth-child(2) article {
+  display: inline-block;
+  text-align: center;
+  width: 28%;
+  padding: 30px 23px;
+}
+
+main section:nth-child(2) img {
+  width: 60px;
+}
+
+body > main > section:nth-child(2) > article:nth-child(3) {
+  padding-left: 37px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
