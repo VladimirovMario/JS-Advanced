@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap");
+
+body {
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+}
+
+header,
+main {
+  padding: 0 15px;
+}
+
+/*navigation bar*/
+.navigation ul {
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation nav {
+  display: inline-block;
+}
+
+.site-title {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  width: 720px;
+  font-size: 26px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #474747;
+  vertical-align: middle;
+}
+
+.navigation nav ul {
+  margin: 0;
+}
+
+.navigation {
+  padding: 15px 0;
+}
+
+nav ul li:not(:last-child) {
+  padding-right: 15px;
+}
+
+body > header > section > nav > ul > li:nth-child(6) > ul {
+  padding-left: 15px;
+}
+
+.navigation > nav > ul > li:nth-child(6) > ul li:not(:last-child) {
+  padding-right: 5px;
+}
+
+.navigation p span {
+  color: #50b9e1;
+}
+
+nav ul li a:hover {
+  color: #50b9e1;
+}
+
+body > header > section > nav > ul > li:nth-child(6) > ul > li > a {
+  border: 1px solid #474747;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+/*header*/
+body > header > section.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url(pictures/kids_main.jpg) no-repeat center;
+  background-size: cover;
+}
+
+body > header > section.header h1 {
+  margin: 0;
+  color: white;
+  font-size: 66px;
+  width: 500px;
+  padding: 200px 0 50px 100px;
+  letter-spacing: 2px;
+}
+
+body > header > section.header button {
+  font-size: 26px;
+  color: white;
+  background: transparent;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 7px;
+  padding: 10px 20px;
+  margin: 0 0 200px 100px;
+}
+
+body > header > section.header button:hover {
+  background: #50b9e1;
+}
+
+/* main Kids-Corner*/
+body main {
+  font-family: "PT Serif", serif;
+  text-align: center;
+  color: #5a7c8a;
+}
+
+body > main > section > h2 {
+  font-size: 32px;
+  font-style: italic;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 40px;
+}
+
+body > main > section > p {
+  margin: 0 auto;
+  width: 60%;
+}
+
+body > main > section > p:nth-child(3) {
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+body > main > section > p > span {
+  color: #50b9e1;
+}
+
+/* main Offerings */
+body > main > section.Offerings {
+  background: #50b9e1;
+  height: 675px;
+  color: white;
+}
+
+body > main > section.Offerings > ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+body > main > section.Offerings > ul > li {
+  margin: 0;
+  width: 25%;
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+body > main > section.Offerings > ul > li > a > img {
+  width: 60px;
+}
+body > main > section.Offerings > ul > li > p {
+  margin: 0;
+}
+
+/*main Upcoming-Camps */
+.Upcoming-Camps > p {
+  padding-bottom: 40px;
+}
+
+.Upcoming-Camps > ul > li > img {
+  width: 400px;
+  height: 220px;
+}
+
+.Upcoming-Camps > ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.Upcoming-Camps > ul > li {
+  width: 400px;
+  display: inline-block;
+}
+
+.Upcoming-Camps div {
+  display: inline-block;
+}
+
+.Upcoming-Camps > ul > li > section {
+  text-align: left;
+}
+
+.Upcoming-Camps > ul > li > section > p,
+h3 {
+  margin: 0;
+}
+
+.Upcoming-Camps > ul > li > section:nth-child(2) > div > p:nth-child(2) {
+  width: 331px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.Upcoming-Camps > ul > li > section > p {
+  width: 400px;
+  padding-bottom: 15px;
+}
+
+.Upcoming-Camps > ul > li > section > div:nth-child(2) > p {
+  font-size: 28px;
+  border: 1px;
+  margin: 0;
+  padding: 10px 10px;
+  color: white;
+  background: #50b9e1;
+}
+
+.Upcoming-Camps hr {
+  height: 1px;
+  width: 90%;
+  border-width: 0;
+  background-color: #5a7c8a;
+}
+
+.Upcoming-Camps button {
+  font-size: 18px;
+  color: #43bae3;
+  background: transparent;
+  border: #43bae3 2px solid;
+  border-radius: 7px;
+  padding: 10px 20px;
+  margin-bottom: 60px;
+}
+
+.Upcoming-Camps button:hover {
+  background: #43bae3;
+  color: white;
+}
+
+body > main > section.Upcoming-Camps > ul > li:nth-child(2) {
+  padding: 0 30px;
+}
+
+/*footer*/
+
+body > footer {
+  margin: 0px 15px 0 15px;
+  color: #5a7c8a;
+  background: #43bae3;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  display: inline-block;
+  width: 900px;
+  padding-left: 150px;
+  vertical-align: middle;
+}
+
+footer ul {
+  margin: 0;
+  display: inline-block;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 2px;
+}
+
+footer ul li a {
+  border: 1px solid #5a7c8a;
+  border-radius: 50%;
+  padding: 4px;
+  color: #5a7c8a;
+  vertical-align: middle;
+}
+
+footer ul li a:hover {
+  color: white;
+}
