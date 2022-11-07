@@ -1,0 +1,1 @@
+![screenshot_furniture](https://user-images.githubusercontent.com/103949296/200255329-1ee0981b-b530-4e27-ba8f-2803edda1376.png)
