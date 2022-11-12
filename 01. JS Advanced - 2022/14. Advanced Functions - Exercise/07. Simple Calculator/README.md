@@ -1,0 +1,1 @@
+![screenshot_simple_calculator](https://user-images.githubusercontent.com/103949296/201467785-2b48a6c8-5332-4ede-a904-04a38712c5bd.png)
