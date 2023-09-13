@@ -1,0 +1,29 @@
+[
+    {
+        "Singer": "Cardi B",
+        "created": 1656576465797,
+        "___class": "NewMusic",
+        "Title": "Bartier Cardi",
+        "ownerId": null,
+        "updated": null,
+        "objectId": "1BE55D72-5578-4D13-AC35-8C66822EBBE5"
+    },
+    {
+        "Singer": "Nicki Minaj",
+        "created": 1656576215731,
+        "___class": "NewMusic",
+        "Title": "Only (special thanks to Drake, Lil Wayne and Chris Brown)",
+        "ownerId": null,
+        "updated": 1656576824458,
+        "objectId": "3F7AA975-EC4B-48DB-9D19-D1E979D8B294"
+    },
+    {
+        "Singer": "Kevin Gates",
+        "created": 1656575269573,
+        "___class": "NewMusic",
+        "Title": "Really Really",
+        "ownerId": null,
+        "updated": 1656575326042,
+        "objectId": "AAB94D96-BD5B-43F4-8CEC-ED3F2E8C1ED9"
+    }
+]

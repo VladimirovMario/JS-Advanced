@@ -1,0 +1,59 @@
+{
+    "results": [
+        {
+            "objectId": "gTOIhehz1E",
+            "FirstName": "Barbara",
+            "LastName": "Smith",
+            "AverageGrade": 4.9,
+            "Courses": [
+                "Exercise: HTTP and REST Services"
+            ],
+            "createdAt": "2022-06-30T09:44:46.073Z",
+            "updatedAt": "2022-06-30T10:06:02.012Z"
+        },
+        {
+            "objectId": "kJXXWznMLA",
+            "FirstName": "James",
+            "LastName": "Christopher",
+            "AverageGrade": 5.7,
+            "Courses": [
+                "Exercise: HTTP and REST Services"
+            ],
+            "createdAt": "2022-06-30T10:14:34.653Z",
+            "updatedAt": "2022-06-30T10:14:34.653Z"
+        },
+        {
+            "objectId": "tAYnnUbKTR",
+            "FirstName": "Sarah",
+            "LastName": "Johnson",
+            "AverageGrade": 5.9,
+            "Courses": [
+                "JS Applications"
+            ],
+            "createdAt": "2022-06-30T10:18:37.489Z",
+            "updatedAt": "2022-06-30T10:18:37.489Z"
+        },
+        {
+            "objectId": "LhjsVJBiHZ",
+            "FirstName": "William",
+            "LastName": "Miller",
+            "AverageGrade": 3.3,
+            "Courses": [
+                "JS Applications"
+            ],
+            "createdAt": "2022-06-30T10:20:11.764Z",
+            "updatedAt": "2022-06-30T10:20:11.764Z"
+        },
+        {
+            "objectId": "XgxLbv4C7N",
+            "FirstName": "Matthew",
+            "LastName": "Taylor",
+            "AverageGrade": 4.1,
+            "Courses": [
+                "JS Applications"
+            ],
+            "createdAt": "2022-06-30T10:20:35.616Z",
+            "updatedAt": "2022-06-30T10:20:35.616Z"
+        }
+    ]
+}
