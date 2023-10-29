@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    form > * {
+      display: block;
+    }
+  </style>
+  <body>
+    <h2>Handling Authentication Token</h2>
+    <!-- <input type="text" name="token" id="token"> -->
+    <button>Make Authorized Request</button>
+
+    <h2>Registration Request</h2>
+    <form id="registration" method="POST" action="/users/register">
+      <input type="text" name="email" />
+      <input type="password" name="password" />
+      <input type="password" name="repass" />
+      <input type="submit" value="Register" />
+    </form>
+    <h2>Login Request</h2>
+    <form id="login" method="POST" action="/users/register">
+      <input type="text" name="email" />
+      <input type="password" name="password" />
+      <input type="submit" value="Login" />
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>
