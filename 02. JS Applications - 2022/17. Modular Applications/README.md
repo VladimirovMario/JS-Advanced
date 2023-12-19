@@ -38,5 +38,3 @@ node server
     To view your application, open the index.html file using an extension like "Live Server" in Visual Studio Code. This extension will provide you with a live preview of your project.
 
 ## Screenshots
-![movies](https://github.com/VladimirovMario/JS-Advanced/assets/103949296/3da141c4-e44a-4e26-9a1e-5360e422b778)
-
